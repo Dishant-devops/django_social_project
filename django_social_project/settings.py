@@ -61,6 +61,7 @@ AUTHENTICATION_BACKENDS = (
     'social.backends.google.GoogleOAuth2',
     'social.backends.twitter.TwitterOAuth',
     'django.contrib.auth.backends.ModelBackend',
+    'social.backends.kakao.KakaoOAuth2',
 )
 
 MIDDLEWARE_CLASSES = (
