@@ -7,5 +7,6 @@
   <a href="{% url 'social:begin' 'username' %}?next={{ request.path }}">Login with Username</a> <br>
   <a href="{% url "social:begin" backend='username' %}">Login with Username</a> <br>
   <a href="{% url 'social:begin' 'lifelongedu' %}?next={{ request.path }}">Login with Lifelongedu</a><br>
-  <a href="{% url 'social:begin' 'kakao' %}?next={{ request.path }}">Login with Kakao</a>
+  <a href="{% url 'social:begin' 'kakao' %}?next={{ request.path }}">Login with Kakao</a><br>
+  <a href="{% url 'social:begin' 'naver' %}?next={{ request.path }}">Login with Naver</a>
 {% endif %}

@@ -57,6 +57,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 AUTHENTICATION_BACKENDS = (
     'social.backends.username.UsernameAuth',
     'django_social_project.lifelongedu.LifelongeduOAuth2',
+    'django_social_project.naver.NaverOAuth2',
     'social.backends.facebook.FacebookOAuth2',
     'social.backends.google.GoogleOAuth2',
     'social.backends.twitter.TwitterOAuth',
